@@ -53,3 +53,39 @@ while (number > 0) {
 alert(newWord);
 
 //================================================================
+
+// Exercise 8
+// let x = prompt("enter first number");
+// let chr;
+// for (i = 1; i <= x; i++) {
+//   for (j = 1; j < i; j++) {
+//     chr = chr + "*";
+//   }
+//   console.log(chr);
+//   chr = "";
+// }
+
+// Exercise 9
+// let number = parseInt(prompt("Enter an integer: "));
+// for (let i = 1; i <= 10; i++) {
+//   let result = i * number;
+// console.log(`${number} * ${i} = ${result}`);
+// }
+
+// Exercise 10
+// let First_number = parseInt(prompt("enter First number: "));
+// let Second_number = parseInt(prompt("enter Second number: "));
+// for (let i = 1; i <= Second_number; i++) {
+//   let result = i * First_number;
+//   console.log(`${First_number} * ${i} = ${result}`);
+// }
+
+// Exercise 11
+
+// let x = prompt("enter First number");
+// let y = prompt("enter Second number");
+// let res = 1;
+// for (let i = 0; i < y; i++) {
+//   res = res * x;
+// }
+// console.log(res);
