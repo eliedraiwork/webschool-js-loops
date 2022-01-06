@@ -3,15 +3,15 @@
 //  Then give to the user to input numbers until he guess
 //  the number
 
-const myRandomNumber = Math.floor(Math.random() * 10);
-// console.log(myRandomNumber);
+// const myRandomNumber = Math.floor(Math.random() * 10);
+// // console.log(myRandomNumber);
 
-let myGuess;
-do {
-	myGuess = parseInt(prompt('Guess a number between 0 and 9'));
-} while (myGuess !== myRandomNumber);
+// let myGuess;
+// do {
+// 	myGuess = parseInt(prompt('Guess a number between 0 and 9'));
+// } while (myGuess !== myRandomNumber);
 
-alert('You won the game!');
+// alert('You won the game!');
 //=================================================================
 
 const problemChosen = prompt(
